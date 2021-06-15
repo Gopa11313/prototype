@@ -5,7 +5,7 @@ export class NavigationBar extends Component {
     render() {
         return (
             
-            <Navbar collapseOnSelect expand="lg" bg="danger" variant="dark">
+            <Navbar collapseOnSelect expand="lg" variant="dark" style={{"background-image": "linear-gradient(255deg,  #DC143C 0%,#ff4e00 100%)","border": "	#DC143C 1px solid"}}>
                 <Container fluid="sm">
                     <Navbar.Brand href="#home" style={{color:"black",fontWeight:"bold"}}>
                     NILOOFAR</Navbar.Brand>
