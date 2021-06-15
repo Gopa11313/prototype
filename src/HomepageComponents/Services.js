@@ -6,8 +6,8 @@ export class Services extends Component {
     render() {
         return (
             <React.Fragment>
-                <h1 className="text-center my-3" style={{ fontSize: '50px', fontWeight: 'bold' }}>SERVICES</h1>
-                <div className="row my-5">
+                <h1 className="text-center my-5 " style={{ fontSize: '50px', fontWeight: 'bold' }}>SERVICES</h1>
+                <div className="row my-5 pb-5">
                     <div className="col-7">
                         <p style={{ fontSize: "40px" }}>INTUTIVE DESIGN IS HOW WE GIVE THE USER NEW SUPERPOWER</p>
                         <hr className="bg-danger"></hr>
