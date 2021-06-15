@@ -1,39 +1,28 @@
 import React, { Component } from 'react'
+import logo from '../assest/logo.png'
 import { Nav, Navbar, Button, Container, Form, FormControl, NavDropdown } from 'react-bootstrap'
 export class NavigationBar extends Component {
     render() {
         return (
-            <Navbar bg="light" expand="lg">
-                <Container>
-                    <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="navbarScroll" />
-                    <Navbar.Collapse id="navbarScroll">
-                        <Nav
-                            className="mr-auto my-2 my-lg-0"
-                            style={{ maxHeight: '100px' }}
-                            navbarScroll
-                        >
-                            <Nav.Link href="#action1">Home</Nav.Link>
-                            <Nav.Link href="#action2">Link</Nav.Link>
-                            <NavDropdown title="Link" id="navbarScrollingDropdown">
-                                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action5">Something else here</NavDropdown.Item>
-                            </NavDropdown>
-                            <Nav.Link href="#" disabled>
-                                Link
-                            </Nav.Link>
+            
+            <Navbar collapseOnSelect expand="lg" bg="danger" variant="dark">
+                <Container fluid="sm">
+                    <Navbar.Brand href="#home" style={{color:"black",fontWeight:"bold"}}>
+                    NILOOFAR</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="mr-auto">
                         </Nav>
-                        <Form className="d-flex">
-                            <FormControl
-                                type="search"
-                                placeholder="Search"
-                                className="mr-2"
-                                aria-label="Search"
-                            />
-                            <Button variant="outline-success">Search</Button>
-                        </Form>
+                        <Nav style={{fontSize: '12px'}}>
+                            <Nav.Link href="#features" style={{color:"white"}}>OUR SECURITY</Nav.Link>
+                            <Nav.Link href="#pricing"style={{color:"white"}}>OUR TEAM</Nav.Link>
+                            <Nav.Link href="#deets"style={{color:"white"}}>HOW WE DO IT</Nav.Link>
+                            <Nav.Link eventKey={2} style={{color:"white"}} href="#memes">
+                                WORKS
+                            </Nav.Link>
+                            <Nav.Link href="#deets"style={{color:"white"}}>BRANDS AND CLIENT</Nav.Link>
+                            <Nav.Link href="#deets"style={{color:"white"}}>CONTACT</Nav.Link>
+                        </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
