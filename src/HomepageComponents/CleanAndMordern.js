@@ -20,7 +20,7 @@ export class CleanAndMordern extends Component {
               style={{
                 width: "100%",
                 height: "450px",
-                backgroundcolor: "rgba (255, 255, 255, .4)",
+                backgroundcolor: "rgba(255, 255, 255, .4)",
               }}
             >
               <div className="col-7 text-light pt-2 mt-5">

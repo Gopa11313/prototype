@@ -4,6 +4,7 @@ import Skills from "../HomepageComponents/Skills";
 import OurServices from "../HomepageComponents/OurServices";
 import CleanAndMordern from "../HomepageComponents/CleanAndMordern";
 import { Container } from "react-bootstrap";
+import Hosting from "../HomepageComponents/Hosting";
 export class Home extends Component {
   render() {
     return (
@@ -16,6 +17,9 @@ export class Home extends Component {
           <OurServices />
         </Container>
         <CleanAndMordern />
+        <Container>
+          <Hosting />
+        </Container>
       </React.Fragment>
     );
   }
