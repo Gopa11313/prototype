@@ -84,7 +84,6 @@ export class OurServices extends Component {
             </p>
           </div>
         </div>
-        //yaha bata tala haii taw//
         <div>
           <div className="row my-3 mt-5">
             <div className="col-4">
