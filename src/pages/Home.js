@@ -6,6 +6,7 @@ import CleanAndMordern from "../HomepageComponents/CleanAndMordern";
 import { Container } from "react-bootstrap";
 import Hosting from "../HomepageComponents/Hosting";
 import CardsPAy from "../HomepageComponents/CardsPAy";
+import ContactUs from "../HomepageComponents/ContactUs";
 export class Home extends Component {
   render() {
     return (
@@ -22,6 +23,7 @@ export class Home extends Component {
           <Hosting />
           <CardsPAy />
         </Container>
+        <ContactUs className="bg-dark" />
       </React.Fragment>
     );
   }
