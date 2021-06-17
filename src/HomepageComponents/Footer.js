@@ -4,9 +4,9 @@ export class Footer extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="bg-dark">
+        <div className="bg-dark" style={{ width: "100%" }}>
           <Container>
-            <div class="row ">
+            <div class="row " style={{ width: "100%" }}>
               <div className="col-10">
                 <div className="row mt-5">
                   <div className="col-2 text-light">
@@ -31,7 +31,7 @@ export class Footer extends Component {
                     <p style={{ fontSize: "13px" }}>CONTACT</p>
                   </div>
                 </div>
-                <div className="row">
+                <div className="row" style={{ width: "100%" }}>
                   <div className="col-10">
                     <input
                       className="form-control transparent-input bg-dark "
@@ -62,8 +62,11 @@ export class Footer extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-2 mt-4">
-                <h3 className="text-light">NILOOFAR</h3>
+
+              <div className="col-2 mt-4" style={{ width: "100%" }}>
+                <p className="text-light" style={{ fontSize: "14px" }}>
+                  NILOOFAR
+                </p>
                 <p className="text-light" style={{ fontSize: "11px" }}>
                   We are full service internet studio with a passsion for
                   creating amazing things for client worldwide.
