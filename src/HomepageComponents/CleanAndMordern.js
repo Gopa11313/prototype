@@ -24,13 +24,13 @@ export class CleanAndMordern extends Component {
               }}
             >
               <div className="col-7 text-light pt-2 mt-5">
-                <h3>CLEAN AND MORDEN DESIGN</h3>
+                <p style={{ fontSize: "18px" }}>CLEAN AND MORDEN DESIGN</p>
                 <div className="row">
                   <div className="col-3">
                     <hr className="bg-danger" style={{ height: "5px" }}></hr>
                   </div>
                 </div>
-                <h1 style={{ fontSize: "45px" }}>WHY YOU NEED A WEBSITE</h1>
+                <p style={{ fontSize: "45px" }}>WHY YOU NEED A WEBSITE</p>
                 <div className="mt-4">
                   <Button className="p-3 bg-dark " variant="dark">
                     CONTACT US
