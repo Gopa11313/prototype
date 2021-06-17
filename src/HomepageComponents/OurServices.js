@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Button } from "react-bootstrap";
 import mbl from "../assest/mbl.jpg";
+import "../HomepageComponents/image.css";
 export class OurServices extends Component {
   render() {
     return (
@@ -110,7 +111,7 @@ export class OurServices extends Component {
               </div>
             </div>
             <div
-              className="col-4 rounded"
+              className="col-4 rounded img2"
               style={{
                 backgroundImage: `url(${mbl})`,
                 width: "100%",

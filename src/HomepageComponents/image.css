@@ -1,0 +1,30 @@
+@media only screen and (min-width: 767px) {
+  .img1 img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .img1 img {
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .img2 {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .img2 p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .img2 {
+    max-width: 240px;
+    max-height: 240px;
+  }
+  .img2 p {
+    font-size: 10px;
+  }
+}

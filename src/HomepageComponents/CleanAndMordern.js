@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import photo from "../assest/photo.jpg";
 import { Container, Button } from "react-bootstrap";
 import tablet from "../assest/tablet.png";
+import "../HomepageComponents/image.css";
 export class CleanAndMordern extends Component {
   render() {
     return (
