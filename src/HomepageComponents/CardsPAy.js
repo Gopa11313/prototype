@@ -45,7 +45,7 @@ export class CardsPAy extends Component {
                   className="mt-5 bg-dark"
                   style={{ width: "100%" }}
                 >
-                  Go somewhere
+                  SELECT
                 </Button>
               </Card.Body>
             </Card>
@@ -107,7 +107,7 @@ export class CardsPAy extends Component {
                     border: "#DC143C 1px solid",
                   }}
                 >
-                  Go somewhere
+                  SELECT
                 </Button>
               </Card.Body>
             </Card>
@@ -152,7 +152,7 @@ export class CardsPAy extends Component {
                   className="mt-5 bg-dark"
                   style={{ width: "100%" }}
                 >
-                  Go somewhere
+                  SELECT
                 </Button>
               </Card.Body>
             </Card>

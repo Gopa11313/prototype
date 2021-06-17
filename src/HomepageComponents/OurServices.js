@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Button } from "react-bootstrap";
+import mbl from "../assest/mbl.jpg";
 export class OurServices extends Component {
   render() {
     return (
@@ -9,13 +10,9 @@ export class OurServices extends Component {
           Fitracker helps people track and reach there fitness goals in a fun
           and interactive way unlike anything else out there.
         </p>
-        <div className="row">
-          <div className="col-2">
-            <hr className="bg-danger"></hr>
-          </div>
-        </div>
         <div className="row my-3">
           <div className="col-3">
+            <hr className="bg-danger"></hr>
             <p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -36,6 +33,7 @@ export class OurServices extends Component {
             </p>
           </div>
           <div className="col-3">
+            <hr></hr>
             <p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -51,6 +49,7 @@ export class OurServices extends Component {
             </p>
           </div>
           <div className="col-3">
+            <hr></hr>
             <p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -68,6 +67,7 @@ export class OurServices extends Component {
           </div>
 
           <div className="col-3">
+            <hr></hr>
             <p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -109,15 +109,34 @@ export class OurServices extends Component {
                 <p>AWARDS</p>
               </div>
             </div>
-            <div className="col-4">
+            <div
+              className="col-4 rounded"
+              style={{
+                backgroundImage: `url(${mbl})`,
+                width: "100%",
+                height: "100%",
+              }}
+            >
               <div
-                className="text-center shadow-lg p-1 mb-2 bg-white rounded"
+                className="text-center shadow-lg p-1 mb-2 rounded"
                 style={{
-                  backgroundColor: "#F5F5F5",
-                  height: "240px",
+                  backgroundcolor: "rgba(255, 255, 255, .4)",
+                  height: "100%",
                   width: "100%",
                 }}
-              ></div>
+              >
+                <p
+                  className="text-white"
+                  style={{ marginTop: "5rem", fontSize: "18px" }}
+                >
+                  WEBSITE DESIGN
+                </p>
+                <p className="text-white">
+                  WE cover everything from installation, importing demo data and
+                  several other topic. Also include, HD narrated video toturial
+                  to get you up and running.{" "}
+                </p>
+              </div>
             </div>
             <div className="col-4">
               <div
